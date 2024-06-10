@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Lato&family=Roboto&display=swap");
+
+$links_font: "Lato";
+$links_height: 24;
+$links_decoration: none;
+$links_weight: 400;
+$heading_font: "Roboto";
+$heading_weight: 400;
+$h1h2_height: 80px;
+$h3_height: 36px;
+$color: rgb(0, 0, 0);
+$text_font: "Cardo";
+$text_weight: 400;
+$text_height: 25px;
+$text_size: 17px;
+
+%links {
+  font-family: $links_font;
+  text-decoration: $links_decoration;
+  font-weight: $links_weight;
+  color: $color;
+  text-transform: uppercase;
+}
+%h1h2 {
+  font-family: $heading_font;
+  font-weight: $heading_weight;
+  line-height: $h1h2_height;
+}
+%h3 {
+  font-family: $heading_font;
+  font-weight: $heading_weight;
+  line-height: $h3_height;
+}
+%text {
+  font-family: $text_font;
+  font-size: $text_size;
+  font-weight: $text_weight;
+  line-height: $text_height;
+}

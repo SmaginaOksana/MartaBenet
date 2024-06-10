@@ -1,0 +1,71 @@
+header {
+  background-image: url(../images/room.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 100px;
+  @media (max-width: 800px) {
+    margin-bottom: 60px;
+  }
+  nav {
+    padding-top: 48px;
+    margin-bottom: 408px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+    @media (max-width: 1200px) {
+      margin-bottom: 30%;
+    }
+    .firstlinks {
+      font-size: 15px;
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      column-gap: 16px;
+      :last-child {
+        font-size: 16px;
+      }
+    }
+    .secondlinks {
+      font-size: 16px;
+      grid-column: 3/4;
+      display: grid;
+      grid-template-columns: repeat(4, auto);
+      column-gap: 16px;
+      :first-child {
+        font-size: 15px;
+      }
+      :nth-child(3) {
+        padding: 0 16px;
+      }
+    }
+    @media (max-width: 800px) {
+      display: none;
+    }
+  }
+  .burger {
+    display: none;
+    width: 40px;
+    @media (max-width: 800px) {
+      padding-top: 30px;
+      margin-bottom: 30%;
+      display: block;
+      img {
+        opacity: 0.5;
+      }
+    }
+    @media (max-width: 600px) {
+      margin-bottom: 20%;
+    }
+  }
+  .logo {
+    padding-bottom: 192px;
+    max-width: 455px;
+    margin: 0 auto;
+    @media (max-width: 1200px) {
+      padding-bottom: 25%;
+    }
+    @media (max-width: 800px) {
+      max-width: 400px;
+    }
+  }
+}

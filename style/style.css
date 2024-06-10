@@ -1,0 +1,734 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Lato&family=Roboto&display=swap");
+.background .wrapper .container a, footer .container .links {
+  font-family: "Lato";
+  text-decoration: none;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+
+.background .wrapper .container h2, .background .wrapper .container h1 {
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 80px;
+}
+
+.background .wrapper .container h3 {
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.background .wrapper .container button, .background .wrapper .container p, .background .wrapper main .container .select > div > div span {
+  font-family: "Cardo";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+header {
+  background-image: url(../images/room.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 100px;
+}
+@media (max-width: 800px) {
+  header {
+    margin-bottom: 60px;
+  }
+}
+header nav {
+  padding-top: 48px;
+  margin-bottom: 408px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+}
+@media (max-width: 1200px) {
+  header nav {
+    margin-bottom: 30%;
+  }
+}
+header nav .firstlinks {
+  font-size: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+header nav .firstlinks :last-child {
+  font-size: 16px;
+}
+header nav .secondlinks {
+  font-size: 16px;
+  grid-column: 3/4;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+header nav .secondlinks :first-child {
+  font-size: 15px;
+}
+header nav .secondlinks :nth-child(3) {
+  padding: 0 16px;
+}
+@media (max-width: 800px) {
+  header nav {
+    display: none;
+  }
+}
+header .burger {
+  display: none;
+  width: 40px;
+}
+@media (max-width: 800px) {
+  header .burger {
+    padding-top: 30px;
+    margin-bottom: 30%;
+    display: block;
+  }
+  header .burger img {
+    opacity: 0.5;
+  }
+}
+@media (max-width: 600px) {
+  header .burger {
+    margin-bottom: 20%;
+  }
+}
+header .logo {
+  padding-bottom: 192px;
+  max-width: 455px;
+  margin: 0 auto;
+}
+@media (max-width: 1200px) {
+  header .logo {
+    padding-bottom: 25%;
+  }
+}
+@media (max-width: 800px) {
+  header .logo {
+    max-width: 400px;
+  }
+}
+
+.background .wrapper main .container h1 {
+  margin-bottom: 60px;
+  font-size: 72px;
+  max-width: 745px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container h1 {
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .background .wrapper main .container h1 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 450px) {
+  .background .wrapper main .container h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+.background .wrapper main .container .discover {
+  margin-bottom: 113px;
+  display: grid;
+  grid-template: auto 477px/repeat(3, auto);
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .discover {
+    grid-template: repeat(2, auto)/repeat(3, auto);
+    margin-bottom: 80px;
+    -moz-column-gap: 15px;
+         column-gap: 15px;
+  }
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .discover {
+    grid-template: repeat(3, auto)/repeat(2, auto);
+    justify-items: center;
+    row-gap: 15px;
+  }
+}
+.background .wrapper main .container .discover button {
+  grid-column: 1/4;
+  width: 175px;
+  padding: 5px 25px;
+  margin-bottom: 64px;
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .discover button {
+    grid-column: 1/3;
+  }
+}
+.background .wrapper main .container .discover > div {
+  display: grid;
+}
+.background .wrapper main .container .discover > div img {
+  width: 100%;
+}
+.background .wrapper main .container .discover :nth-child(2) img {
+  align-self: end;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .discover :nth-child(2) {
+    align-self: center;
+  }
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .discover :nth-child(2) {
+    grid-column: 1/3;
+  }
+}
+.background .wrapper main .container .about {
+  margin-bottom: 215px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .about {
+    margin-bottom: 100px;
+  }
+}
+.background .wrapper main .container .about :first-child {
+  margin-bottom: 16px;
+}
+.background .wrapper main .container .about :nth-child(2) {
+  margin-bottom: 37px;
+}
+.background .wrapper main .container .about button {
+  width: 166px;
+  padding: 1px 25px;
+}
+.background .wrapper main .container .purchase {
+  margin-bottom: 192px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .purchase {
+    margin-bottom: 100px;
+  }
+}
+.background .wrapper main .container .purchase p {
+  max-width: 312px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 95px;
+}
+.background .wrapper main .container .purchase > div {
+  margin-bottom: 96px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 600px) {
+  .background .wrapper main .container .purchase > div {
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    margin-bottom: 60px;
+  }
+}
+.background .wrapper main .container .purchase > div .first {
+  justify-self: start;
+  align-self: start;
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .purchase > div .first {
+    justify-self: center;
+    align-self: center;
+  }
+}
+.background .wrapper main .container .purchase > div .last {
+  justify-self: end;
+  align-self: end;
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .purchase > div .last {
+    justify-self: center;
+    align-self: center;
+  }
+}
+.background .wrapper main .container .purchase > div .headings h2 {
+  text-align: center;
+  vertical-align: top;
+}
+.background .wrapper main .container .purchase > div .headings :first-child {
+  font-size: 52px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .purchase > div .headings :first-child {
+    font-size: 45px;
+  }
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .purchase > div .headings :first-child {
+    font-size: 25px;
+  }
+}
+.background .wrapper main .container .purchase > div .headings :nth-child(2) {
+  font-size: 51px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .purchase > div .headings :nth-child(2) {
+    font-size: 45px;
+  }
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .purchase > div .headings :nth-child(2) {
+    font-size: 25px;
+  }
+}
+.background .wrapper main .container .purchase > div .headings :nth-child(3) {
+  font-size: 55px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .purchase > div .headings :nth-child(3) {
+    font-size: 45px;
+  }
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .purchase > div .headings :nth-child(3) {
+    font-size: 25px;
+  }
+}
+.background .wrapper main .container .purchase > div .headings :nth-child(4) {
+  font-size: 54px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .purchase > div .headings :nth-child(4) {
+    font-size: 45px;
+  }
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .purchase > div .headings :nth-child(4) {
+    font-size: 25px;
+  }
+}
+.background .wrapper main .container .purchase > div .headings :last-child {
+  font-size: 54px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .purchase > div .headings :last-child {
+    font-size: 45px;
+  }
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .purchase > div .headings :last-child {
+    font-size: 25px;
+  }
+}
+.background .wrapper main .container .purchase button {
+  display: block;
+  margin: 0 auto;
+  width: 115px;
+  padding: 5px 25px;
+}
+.background .wrapper main .container .projects {
+  margin-bottom: 192px;
+  display: grid;
+  grid-template: repeat(3, auto)/repeat(3, auto);
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .projects {
+    margin-bottom: 100px;
+  }
+}
+.background .wrapper main .container .projects h2 {
+  grid-column: 1/4;
+  text-align: center;
+  font-size: 51px;
+  margin-bottom: 9px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .projects h2 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .projects h2 {
+    font-size: 30px;
+  }
+}
+.background .wrapper main .container .projects p {
+  grid-column: 1/4;
+  max-width: 849px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 63px;
+}
+.background .wrapper main .container .projects > div {
+  display: grid;
+  grid-template: repeat(2, auto)/repeat(3, 1fr);
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .projects > div {
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+  }
+}
+.background .wrapper main .container .projects > div > div img {
+  margin-bottom: 16px;
+  max-width: 100%;
+}
+.background .wrapper main .container .services {
+  margin-bottom: 224px;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .services {
+    margin-bottom: 100px;
+  }
+}
+.background .wrapper main .container .services h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 64px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .services h2 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .services h2 {
+    font-size: 30px;
+  }
+}
+.background .wrapper main .container .services > div {
+  margin-bottom: 172px;
+  display: grid;
+  grid-template: repeat(2, auto)/repeat(3, auto);
+  row-gap: 108px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .services > div {
+    grid-template: repeat(3, auto)/repeat(2, auto);
+    justify-content: space-evenly;
+    row-gap: 70px;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 750px) {
+  .background .wrapper main .container .services > div {
+    grid-template: repeat(6, auto)/repeat(1, auto);
+    row-gap: 50px;
+  }
+}
+.background .wrapper main .container .services > div > div {
+  max-width: 308px;
+  text-align: center;
+  justify-self: center;
+}
+.background .wrapper main .container .services > div :first-child h3 {
+  font-size: 22px;
+  margin-bottom: 17px;
+}
+.background .wrapper main .container .services > div :nth-child(2) h3 {
+  font-size: 23px;
+  margin-bottom: 17px;
+}
+.background .wrapper main .container .services > div :nth-child(3) h3 {
+  font-size: 22px;
+  margin-bottom: 17px;
+}
+.background .wrapper main .container .services > div :nth-child(4) h3 {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+.background .wrapper main .container .services > div :nth-child(5) h3 {
+  font-size: 23px;
+  margin-bottom: 16px;
+}
+.background .wrapper main .container .services > div :nth-child(6) h3 {
+  font-size: 23px;
+  margin-bottom: 16px;
+}
+.background .wrapper main .container .services > p {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.background .wrapper main .container .services button {
+  display: block;
+  margin: 0 auto;
+  width: 134px;
+  padding: 5px 25px;
+}
+.background .wrapper main .container .selection .headofparagraf {
+  padding: 0 32px;
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .selection .headofparagraf {
+    padding: 0;
+  }
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .selection .headofparagraf {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.background .wrapper main .container .selection .headofparagraf h2 {
+  font-size: 53px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .selection .headofparagraf h2 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .selection .headofparagraf h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+.background .wrapper main .container .selection .headofparagraf .img {
+  display: flex;
+}
+.background .wrapper main .container .selection .headofparagraf .img div {
+  width: 48px;
+  height: 48px;
+  background-image: url(../images/circle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background .wrapper main .container .selection .headofparagraf .img .first {
+  padding: 14px;
+  margin-right: 8px;
+}
+.background .wrapper main .container .selection .headofparagraf .img .first img {
+  width: 20px;
+}
+.background .wrapper main .container .selection .headofparagraf .img .second {
+  padding: 12px;
+}
+.background .wrapper main .container .selection .headofparagraf .img .second img {
+  width: 24px;
+}
+.background .wrapper main .container .selection .button {
+  padding-left: 32px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .selection .button {
+    padding: 0;
+  }
+}
+.background .wrapper main .container .selection .button button {
+  width: 109px;
+  padding: 1px 25px;
+  margin-bottom: 86px;
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .selection .button button {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
+.background .wrapper main .container .select {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  margin-bottom: 127px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .select {
+    margin-bottom: 100px;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+  }
+}
+.background .wrapper main .container .select > div img {
+  margin-bottom: 16px;
+}
+.background .wrapper main .container .select > div span {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 28px;
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .select > div span {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+.background .wrapper main .container .select .set .text {
+  font-size: 20px;
+  line-height: 28px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .select .set .text {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .select .set .text {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+.background .wrapper main .container .select .set img {
+  margin-bottom: 20px;
+}
+.background .wrapper main .container hr {
+  margin-bottom: 129px;
+  border: none;
+  background-color: rgb(11, 8, 5);
+  color: rgb(11, 8, 5);
+  height: 1px;
+  opacity: 0.1;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container hr {
+    margin-bottom: 100px;
+  }
+}
+.background .wrapper main .container .newsletter h2 {
+  font-size: 53px;
+  text-align: center;
+  margin-bottom: 102px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .newsletter h2 {
+    font-size: 45px;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .newsletter h2 {
+    font-size: 30px;
+  }
+}
+.background .wrapper main .container .newsletter .secondhr {
+  width: 572px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  opacity: 0.2;
+}
+@media (max-width: 800px) {
+  .background .wrapper main .container .newsletter .secondhr {
+    width: 100%;
+  }
+}
+.background .wrapper main .container .newsletter p {
+  text-align: center;
+}
+.background .wrapper main .container .newsletter :nth-child(3) {
+  max-width: 515px;
+  margin: auto;
+  margin-bottom: 16px;
+}
+.background .wrapper main .container .newsletter :nth-child(4) {
+  margin-bottom: 25px;
+}
+.background .wrapper main .container .newsletter .empty {
+  display: block;
+  margin: 0 auto;
+  width: 84px;
+  height: 35px;
+  margin-bottom: 127px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper main .container .newsletter .empty {
+    margin-bottom: 100px;
+  }
+}
+
+footer .container hr {
+  margin-bottom: 32px;
+  border: none;
+  background-color: rgb(11, 8, 5);
+  color: rgb(11, 8, 5);
+  height: 1px;
+  opacity: 0.1;
+}
+footer .container .links {
+  font-size: 16px;
+  margin-bottom: 34px;
+}
+footer .container .links a {
+  margin-right: 16px;
+}
+@media (max-width: 500px) {
+  footer .container .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+footer .container .text {
+  display: grid;
+  grid-template: auto/auto auto;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 24px;
+}
+@media (max-width: 800px) {
+  footer .container .text {
+    grid-template: auto auto/auto;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+.background .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.background .wrapper .container {
+  padding: 0 64px;
+}
+@media (max-width: 1200px) {
+  .background .wrapper .container {
+    padding: 0 40px;
+  }
+}
+@media (max-width: 1200px) {
+  .background .wrapper .container h2 {
+    line-height: 70px;
+  }
+}
+@media (max-width: 800px) {
+  .background .wrapper .container h2 {
+    line-height: 50px;
+  }
+}
+.background .wrapper .container button {
+  background-color: transparent;
+  border: rgb(0, 0, 0) solid 1px;
+  border-radius: 9999px;
+}
+.background .wrapper .container img {
+  width: 100%;
+  display: block;
+}/*# sourceMappingURL=style.css.map */
